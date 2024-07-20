@@ -5,7 +5,7 @@
 	<bgsound src="./BGmusic.mp3" autostart="true" loop="false" />
 	<embed src="./BGmusic.mp3" hidden="true" autostart="true" loop="true">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>MISS LYH</title>
+    <title>生日快乐</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <style>
@@ -106,7 +106,7 @@
 </div>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #ed3073;">
-    今天是刘逸荷不在第
+    转眼间，小明已经活了
     <br/>
     <span id="span_dt_dt"></span>
 </p>
@@ -116,7 +116,7 @@
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date("6/9/2022 15:20:00");//这个日期是可以修改的
+        BirthDay = new Date("7/24/1994 15:20:00");//这个日期是可以修改的
         today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
@@ -140,7 +140,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("逸|荷|我|们|想|你|了|快|回|来|吧|〔^ǒ^〕");
+            S.UI.simulate("今|天|是|小|明|的|生|日|盼|君|笑|口|常|开|天|天|开|心|〔^ǒ^〕");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
